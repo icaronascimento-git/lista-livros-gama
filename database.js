@@ -1,0 +1,58 @@
+const livros = [
+    {
+        id: 1,
+        nome: "Digital Minimalism",
+        autor: "Cal Newport",
+        categoria: "Produtividade e Estilo de vida",
+        paginas: 254,
+        recomenda: false,
+        leu: false,
+    },
+    {
+        id: 2,
+        nome: "Ciência e Politica 2 vocações",
+        autor: "Max Weber",
+        categoria: "Ciência e Política",
+        paginas: 200,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 3,
+        nome: "21 Lições para o Século 21",
+        autor: "Yuval Harari",
+        categoria: "Negócios, Tecnologia e Religião",
+        paginas: 220,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 4,
+        nome: "O Alienista",
+        autor: "Machado de Assis",
+        categoria: "Romance e ficção",
+        paginas: 100,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 5,
+        nome: "Como conseguir o que deseja?",
+        autor: "Wallace D. Wattles",
+        categoria: "Desenvolvimento Pessoal",
+        paginas: 85,
+        recomenda: true,
+        leu: true,
+    },
+    {
+        id: 6,
+        nome: "A Ciência do bem-estar",
+        autor: "Wallace D. Wattles",
+        categoria: "Desenvolvimento Pessoal",
+        paginas: 92,
+        recomenda: true,
+        leu: true,
+    },
+]
+
+module.exports = livros
